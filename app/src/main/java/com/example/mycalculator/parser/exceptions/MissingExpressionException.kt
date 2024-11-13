@@ -1,4 +1,6 @@
 package com.example.mycalculator.parser.exceptions
 
-class MissingExpressionException : Throwable() {
+import java.lang.Exception
+
+class MissingExpressionException : Exception() {
 }
